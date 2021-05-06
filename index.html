@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Itim:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="wk-ffѧϰ�ʼ�">
+<meta property="og:type" content="website">
+<meta property="og:title" content="wk-ff">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="wk-ff">
+<meta property="og:description" content="wk-ffѧϰ�ʼ�">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="wk-ff">
+<meta property="article:tag" content="Java Mysql Redis">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>wk-ff</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">wk-ff</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/03/%E3%80%90Java%E5%9F%BA%E7%A1%80%E3%80%91ArrayList/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wk-ff">
+      <meta itemprop="description" content="wk-ffѧϰ�ʼ�">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wk-ff">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/03/%E3%80%90Java%E5%9F%BA%E7%A1%80%E3%80%91ArrayList/" class="post-title-link" itemprop="url">Java基础之ArrayList</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-03 14:46:23 / 修改时间：20:17:10" itemprop="dateCreated datePublished" datetime="2021-05-03T14:46:23+08:00">2021-05-03</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="ArrayList"><a href="#ArrayList" class="headerlink" title="ArrayList"></a>ArrayList</h1><blockquote>
+<p>本文基于JDK 1.8</p>
+<p>ArrayList继承自AbstractList，实现了List接口。底层是基于数组实现，允许null元素存在。同时还实现了RandomAccess、Cloneable、Serializable接口，所以支持快速访问、复制、序列化的。</p>
+</blockquote>
+<h2 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h2><p>默认初始容量</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> DEFAULT_CAPACITY = <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Object[] EMPTY_ELEMENTDATA = &#123;&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = &#123;&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">transient</span> Object[] elementData; <span class="comment">// non-private to simplify nested class access</span></span><br></pre></td></tr></table></figure>
+
+<p>包含元素的数量</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">int</span> size;</span><br></pre></td></tr></table></figure>
+
+<h2 id="创建方式"><a href="#创建方式" class="headerlink" title="创建方式"></a>创建方式</h2><p>ArrayList有三种构造方法。</p>
+<p>1.无参构造方法，<code>DEFAULTCAPACITY_EMPTY_ELEMENTDATA</code>为空数组</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">ArrayList</span><span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="keyword">this</span>.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.指定数组长度的构造方法，如果长度为0，同无参构造方法；如果长度大于0，初始化为<code>initialCapacity</code>长度的数组</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">ArrayList</span><span class="params">(<span class="keyword">int</span> initialCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (initialCapacity &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">this</span>.elementData = <span class="keyword">new</span> Object[initialCapacity];</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (initialCapacity == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">this</span>.elementData = EMPTY_ELEMENTDATA;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="string">&quot;Illegal Capacity: &quot;</span>+</span><br><span class="line">                                               initialCapacity);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>3.从已有容器中创建，把别的容器初始化到ArrayList中，如果容器长度为0，初始化为空数组；否则，如果容器也是ArrayList对象，直接赋值，否则调用<code>Arrays.copyOf()</code>赋值。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">ArrayList</span><span class="params">(Collection&lt;? extends E&gt; c)</span> </span>&#123;</span><br><span class="line">    Object[] a = c.toArray();</span><br><span class="line">    <span class="keyword">if</span> ((size = a.length) != <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (c.getClass() == ArrayList.class) &#123;</span><br><span class="line">            elementData = a;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            elementData = Arrays.copyOf(a, size, Object[].class);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="comment">// replace with empty array.</span></span><br><span class="line">        elementData = EMPTY_ELEMENTDATA;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加元素"><a href="#添加元素" class="headerlink" title="添加元素"></a>添加元素</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">add</span><span class="params">(E e)</span> </span>&#123;</span><br><span class="line">    ensureCapacityInternal(size + <span class="number">1</span>);  <span class="comment">// Increments modCount!!</span></span><br><span class="line">    elementData[size++] = e;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>两步：</p>
+<ol>
+<li>保证容量正常合法</li>
+<li>添加元素</li>
+</ol>
+<p>看下<code>ensureCapacityInternal()</code>, 直接调用<code>ensureExplicitCapacity()</code></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">ensureCapacityInternal</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;   						           ensureExplicitCapacity(calculateCapacity(elementData, minCapacity));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>再看下<code>ensureExplicitCapacity()</code>，如果添加元素后的元素数量即<code>size+1</code>大于<code>elementData</code>的长度，进行扩容。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">ensureExplicitCapacity</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;</span><br><span class="line">    modCount++;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// overflow-conscious code</span></span><br><span class="line">    <span class="keyword">if</span> (minCapacity - elementData.length &gt; <span class="number">0</span>)</span><br><span class="line">        grow(minCapacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>调用<code>grow()</code>进行扩容</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">grow</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// overflow-conscious code</span></span><br><span class="line">    <span class="keyword">int</span> oldCapacity = elementData.length;</span><br><span class="line">    <span class="keyword">int</span> newCapacity = oldCapacity + (oldCapacity &gt;&gt; <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - minCapacity &lt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = minCapacity;</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - MAX_ARRAY_SIZE &gt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = hugeCapacity(minCapacity);</span><br><span class="line">    <span class="comment">// minCapacity is usually close to size, so this is a win:</span></span><br><span class="line">    elementData = Arrays.copyOf(elementData, newCapacity);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;</p>
+</blockquote>
+<p>步骤如下：</p>
+<ol>
+<li><code>newCapacity</code>为<code>oldCapacity * 1.5</code>向下取整</li>
+<li><code>newCapacity</code>取<code>newCapacity</code>和<code>minCapacity</code>中最大的</li>
+<li>如果<code>newCapacity</code>大于<code>MAX_ARRAY_SIZE</code>，调用<code>hugeCapacity(minCapacity)</code>：若<code>minCapacity</code>&lt;0, 则溢出，抛出OOM；否则，返回<code>(minCapacity &gt; MAX_ARRAY_SIZE) ? Integer.MAX_VALUE : MAX_ARRAY_SIZE</code></li>
+<li>复制数组</li>
+</ol>
+<p>参考：</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://juejin.cn/post/6957911661650903054?utm_source=gold_browser_extension">重学Java—ArrayList</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/03/%E3%80%90mysql%E3%80%91%E8%AE%B0%E5%BD%95%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wk-ff">
+      <meta itemprop="description" content="wk-ffѧϰ�ʼ�">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wk-ff">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/03/%E3%80%90mysql%E3%80%91%E8%AE%B0%E5%BD%95%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84/" class="post-title-link" itemprop="url">mysql</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-03 14:38:06" itemprop="dateCreated datePublished" datetime="2021-05-03T14:38:06+08:00">2021-05-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-06 19:39:35" itemprop="dateModified" datetime="2021-05-06T19:39:35+08:00">2021-05-06</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="InnoDB记录存储结构"><a href="#InnoDB记录存储结构" class="headerlink" title="InnoDB记录存储结构"></a>InnoDB记录存储结构</h1><p>InnoDB行格式</p>
+<p>记录在磁盘上的存储方式叫做行格式，有四种行格式：Compact、Redundant、Dynamic和Compressed。</p>
+<p>指定行格式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">CREATE TABLE 表名 (列的信息) ROW_FORMAT&#x3D;COMPACT;</span><br><span class="line"></span><br><span class="line">ALTER TABLE 表名 ROW_FORMAT&#x3D;COMPACT;</span><br></pre></td></tr></table></figure>
+
+<h2 id="COMPACT行格式"><a href="#COMPACT行格式" class="headerlink" title="COMPACT行格式"></a>COMPACT行格式</h2><p><img src="images%5Cmysql-1.png" alt="image-20210506175542530"></p>
+<p>一条记录主要分为额外信息和真实数据，额外信息包括变长字段长度列表、NULL值列表和记录头信息。</p>
+<h3 id="变长字段长度列表"><a href="#变长字段长度列表" class="headerlink" title="变长字段长度列表"></a>变长字段长度列表</h3><p>数据类型为VARCHAR(M)、VARBINARY(M)、TEXT和BLOB类型的字段存储的数据长度是不固定的，保存这个字段的长度，从而可以确定真实数据中哪些数据存储这个字段的值。变长字段主要保存两个信息：</p>
+<ol>
+<li>变长字段长度</li>
+<li>字段真实数据</li>
+</ol>
+<p>变长字段长度是<strong>逆序</strong>保存的，用一或两个字节保存字段长度。M表示最大字符数，W表示一个字符最大占用字节（utf9mb4字符集就是4，utf8字符集就是3，gbk字符集就是2，ascii字符集就是1），L表示字符串实际长度。</p>
+<ul>
+<li>如果M*W &lt;= 255，则变长字段长度只用一个字节存储就够了</li>
+<li>如果M*W &gt; 255，分为两种情况。（如果字段最多占用字节大于255时，读取它的长度中某个字节时，首位是1，则该字节为半个字段长度，否则为整个字段长度）<ul>
+<li>如果L &lt;= 127，只用一个字节存储</li>
+<li>如果L &gt; 127，用两个字节存储。</li>
+</ul>
+</li>
+</ul>
+<h3 id="NULL值列表"><a href="#NULL值列表" class="headerlink" title="NULL值列表"></a>NULL值列表</h3><p>NULL值不存储在真实数据中，由NULL值列表管理，<strong>逆序</strong>存储在NULL值列表中。主键，由NOT NULL修饰的字段不可以为NULL。长度为整数个字节，如果可以为NULL值的字段数不足以填满整数个字节，就高位补0。例如，8个字段可以为NULL，就用1个字节存储NULL值列表；9个字段可以为NULL，用2个字节存储NULL值列表，高位补0。</p>
+<p>某表中有c1, c2, c3三个可以为NULL的字段，其中一条记录对应字段值为（NULL, NULL, “a”），则NULL值列表为0x03。</p>
+<p>没有字段可以为NULL则不存储NULL值列表。</p>
+<h3 id="记录头信息"><a href="#记录头信息" class="headerlink" title="记录头信息"></a>记录头信息</h3><p>固定5字节保存。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>大小（bit）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>预留位1</td>
+<td>1</td>
+<td>没有使用</td>
+</tr>
+<tr>
+<td>预留位2</td>
+<td>1</td>
+<td>没有使用</td>
+</tr>
+<tr>
+<td>delete_mask</td>
+<td>1</td>
+<td>标记该记录是否被删除</td>
+</tr>
+<tr>
+<td>min_rec_mask</td>
+<td>1</td>
+<td>标记B+树的每层非叶子节点中的最小记录</td>
+</tr>
+<tr>
+<td>n_owned</td>
+<td>4</td>
+<td>表示当前记录拥有的记录数(Page Directory中的slot)</td>
+</tr>
+<tr>
+<td>heap_no</td>
+<td>13</td>
+<td>表示当前记录在记录堆中的位置信息</td>
+</tr>
+<tr>
+<td>record_type</td>
+<td>3</td>
+<td>记录类型，0表示普通记录，1表示B+树非叶子节点记录，2表示最小记录，3表示最大记录</td>
+</tr>
+<tr>
+<td>next_record</td>
+<td>16</td>
+<td>表示下一条记录的相对位置（形成单链表）</td>
+</tr>
+</tbody></table>
+<h3 id="真实数据"><a href="#真实数据" class="headerlink" title="真实数据"></a>真实数据</h3><table>
+<thead>
+<tr>
+<th>列名</th>
+<th>是否必须</th>
+<th>大小（字节）</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DB_ROW_ID</td>
+<td>否</td>
+<td>6</td>
+<td>行ID，唯一标识一条记录（未指定主键时创建）</td>
+</tr>
+<tr>
+<td>DB_TRX_ID</td>
+<td>是</td>
+<td>7</td>
+<td>事务ID</td>
+</tr>
+<tr>
+<td>DB_ROLL_PTR</td>
+<td>是</td>
+<td>7</td>
+<td>回滚指针</td>
+</tr>
+</tbody></table>
+<p>主键生成策略：优先使用用户自定义的主键，没有的话选取一个UNIQUE键作为主键，UNIQUE键也没有的话，InnoDB添加DB_ROW_ID隐藏列作为主键。</p>
+<h4 id="CHAR-M"><a href="#CHAR-M" class="headerlink" title="CHAR(M)"></a>CHAR(M)</h4><p>定长字符集时，占用固定字节的空间，如ascii字符集的CHAR(M)占用M个字节，字符串长度不足M个字节时低位用<strong>空格字符</strong>(0x20)填充。变长字符时，长度保存在变长字段长度列表，同时CHAR(M)在真实数据中只用占用M个字节（可能会产生空间碎片）。</p>
+<p>CHAR(M)类型的列可存储最大字节长度大于768字节时，无论使用哪种行格式，InnoDB都会把该列当成变长字段。</p>
+<h2 id="Redundant行格式"><a href="#Redundant行格式" class="headerlink" title="Redundant行格式"></a>Redundant行格式</h2><p>Mysql 5.0之前用的一种行格式。</p>
+<p><img src="images%5Cmysql-2.png" alt="image-20210506190153022"></p>
+<p><strong>逆序</strong>保存所有字段长度的偏移量（如0x0C 0x06，第一个字段长度6字节，第二个字段长度0x0C - 0x06 = 6字节）。</p>
+<p>记录头信息占用6字节。没有record_type（3bit），多了n_field(10bit)表示记录中列的数量，1byte_offs_flag(1bit)标记字段长度偏移列表中的偏移量是使用1字节还是2字节表示。    </p>
+<p>NULL值：字段长度偏移列表中记录即可，不用保存在真实数据中。如果该字段是CHAR(M)类型，则占用W*M字节的0x00存储。</p>
+<h2 id="行溢出数据"><a href="#行溢出数据" class="headerlink" title="行溢出数据"></a>行溢出数据</h2><p>除了BLOB或者TEXT类型的列之外，其他所有的列（不包括隐藏列和记录头信息）占用的字节长度加起来不能超过65535个字节。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> varchar_size_demo(</span><br><span class="line">	c <span class="type">varchar</span>(<span class="number">65532</span>)</span><br><span class="line">) charset<span class="operator">=</span>ascii row_format<span class="operator">=</span>Compact;</span><br></pre></td></tr></table></figure>
+
+<p>两个字节保存变长字段长度，一个字节保存NULL值列表，c列最大长度为65532。如果c列NOT NULL，最大长度为65533。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> varchar_size_demo(</span><br><span class="line">	c <span class="type">varchar</span>(<span class="number">21844</span>)</span><br><span class="line">) charset<span class="operator">=</span>utf8 row_format<span class="operator">=</span>Compact;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Dynamic行格式"><a href="#Dynamic行格式" class="headerlink" title="Dynamic行格式"></a>Dynamic行格式</h2><p>行溢出时只保存溢出页的地址，数据全部保存在溢出页。Compressed行格式会采用压缩算法对页面进行压缩，节省空间。</p>
+<p>参考</p>
+<ul>
+<li>《MySQL 是怎样运行的：从根儿上理解 MySQL》</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">wk-ff</p>
+  <div class="site-description" itemprop="description">wk-ffѧϰ�ʼ�</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">wk-ff</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
